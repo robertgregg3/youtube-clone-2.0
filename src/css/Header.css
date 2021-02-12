@@ -1,0 +1,76 @@
+.header,
+.header > * {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.header {
+  padding: 0 10px;
+  margin-top: -10px;
+}
+
+.headerLeft {
+  flex: 0.2;
+  color: #11111199;
+}
+.headerLeft .MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.headerLeft img {
+  width: 100px;
+  margin-top: -3px;
+  cursor: pointer;
+}
+
+.headerLeft--leftCol {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.headerCenter {
+  flex: 0.6;
+  color: #33333399;
+  justify-content: center;
+  height: 40px;
+}
+
+.headerCenter > input {
+  width: 100%;
+  max-width: 350px;
+  border: 1px solid #33333340;
+  border-radius: 2px;
+  height: 22px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.headerCenter > input:focus {
+  outline-width: 0;
+}
+
+.headerCenter__search {
+  background-color: #cccccc50;
+  font-size: 15px !important;
+  padding: 4.5px 15px;
+  border: 1px solid #cccccc;
+  margin-left: -1px;
+  margin-right: 10px;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+.headerRight {
+  flex: 0.2;
+  color: #11111199;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.headerRight .MuiSvgIcon-root {
+  cursor: pointer;
+}

@@ -1,9 +1,17 @@
 import "./css/App.css";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <div className="app">
-      <h1>This is the app!</h1>
+      {/* HEADER */}
+      <Header />
+
+      {/* APP BODY */}
+      {/* SIDEBAR */}
+      {/* CONTENT */}
+      {/* SEARCH PREVIOUS TERMS */}
+      {/* YOUTUBE VIDEOS */}
     </div>
   );
 }
