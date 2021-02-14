@@ -1,0 +1,32 @@
+.sidebar {
+  display: flex;
+  color: #5f5f5f;
+  flex-direction: column;
+  margin-top: -20px;
+}
+
+.sidebar > div > span {
+  display: flex;
+  margin-bottom: 15px;
+  padding: 0 25px;
+}
+
+.sidebar > div > span > p {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.sidebar__section {
+  border-bottom: 1px solid #cccccc80;
+  width: 200px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__section > h4 {
+  margin-left: 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+}

@@ -1,12 +1,13 @@
 import "./css/App.css";
 import Header from "./Components/Header";
+import AppBody from "./Components/AppBody";
 
 function App() {
   return (
     <div className="app">
-      {/* HEADER */}
       <Header />
 
+      <AppBody />
       {/* APP BODY */}
       {/* SIDEBAR */}
       {/* CONTENT */}

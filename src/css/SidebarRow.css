@@ -1,0 +1,17 @@
+.sidebarRow {
+  display: flex;
+  margin-left: 25px;
+  margin-bottom: 12px;
+}
+
+.sidebarRow > h4 {
+  margin-top: 6px;
+  font-size: 13px;
+  margin-left: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.sidebarRow > .MuiSvgIcon-root {
+  cursor: pointer;
+}

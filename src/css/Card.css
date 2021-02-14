@@ -1,0 +1,47 @@
+.card {
+  margin: 8px;
+}
+
+.card__container {
+  width: 240px;
+}
+
+.card__top img {
+  width: 240px;
+}
+
+.card__bottom {
+  display: flex;
+  margin-top: 10px;
+}
+
+.card__bottomLeft > .MuiAvatar-root {
+  width: 30px !important;
+  height: 30px;
+}
+
+.card__bottomRight {
+  margin-left: 10px;
+}
+
+.card__bottomRight > h4 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.card__bottomRight > p {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #5f5f5f;
+  margin-bottom: 1px;
+}
+
+.card__bottomRight > p > span > .MuiSvgIcon-root {
+  font-size: 15px !important;
+}
+
+.card__botomRight--views:after {
+  content: "•";
+  margin: 0 4px;
+}
