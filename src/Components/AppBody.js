@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/AppBody.css";
 import Content from "./Content";
-import Sidebar from "./Sidebar";
+import Sidebar from "./Sidebar/Sidebar";
 import TermsOfService from "./TermsOfService";
 import Privacy from "./Privacy";
 import { Switch, Route } from "react-router-dom";

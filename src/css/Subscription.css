@@ -1,0 +1,28 @@
+.subscription {
+  display: flex;
+  margin-left: 25px;
+  margin-bottom: 0px;
+  height: 35px;
+  padding-top: 8px;
+}
+.subscription:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0px 0px 0px 25px;
+  margin-left: 0px;
+  padding-top: 8px;
+}
+
+.subscription > h4 {
+  margin-top: 6px;
+  font-size: 13px;
+  margin-left: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.subscriptions > .subscription .MuiAvatar-root {
+  cursor: pointer;
+  font-size: 145px !important;
+  width: 26px;
+  height: 26px;
+}

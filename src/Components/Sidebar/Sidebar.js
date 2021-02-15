@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Sidebar.css";
+import "../../css/Sidebar.css";
 import HomeIcon from "@material-ui/icons/Home";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
@@ -10,6 +10,7 @@ import OndemandVideoIcon from "@material-ui/icons/OndemandVideo";
 import ThumbUpAltIcon from "@material-ui/icons/ThumbUpAlt";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import SidebarRow from "./SidebarRow";
+import Subscriptions from "./Subscriptions/Subscriptions";
 
 const Sidebar = () => {
   return (
@@ -29,6 +30,7 @@ const Sidebar = () => {
       </div>
       <div className="sidebar__section">
         <h4>Subscriptions</h4>
+        <Subscriptions />
       </div>
     </div>
   );
