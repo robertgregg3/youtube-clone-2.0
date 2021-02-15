@@ -1,4 +1,12 @@
 .content {
-  display: flex;
-  flex-wrap: wrap;
+  margin-left: 200px;
+}
+
+.content__results {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 100%;
+  background-color: #f9f9f9;
+  padding: 10px;
+  flex: 1;
 }

@@ -2,12 +2,8 @@
   margin: 8px;
 }
 
-.card__container {
-  width: 240px;
-}
-
 .card__top img {
-  width: 240px;
+  width: 100%;
 }
 
 .card__bottom {

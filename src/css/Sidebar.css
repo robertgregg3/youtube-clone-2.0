@@ -2,7 +2,9 @@
   display: flex;
   color: #5f5f5f;
   flex-direction: column;
-  margin-top: -20px;
+  top: 35px;
+  position: fixed;
+  z-index: 100;
 }
 
 .sidebar > div > span {

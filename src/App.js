@@ -6,13 +6,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-
       <AppBody />
-      {/* APP BODY */}
-      {/* SIDEBAR */}
-      {/* CONTENT */}
-      {/* SEARCH PREVIOUS TERMS */}
-      {/* YOUTUBE VIDEOS */}
     </div>
   );
 }

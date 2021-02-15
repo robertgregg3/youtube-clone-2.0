@@ -1,7 +1,15 @@
 .sidebarRow {
   display: flex;
   margin-left: 25px;
-  margin-bottom: 12px;
+  margin-bottom: 0px;
+  height: 35px;
+  padding-top: 8px;
+}
+.sidebarRow:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0px 0px 0px 25px;
+  margin-left: 0px;
+  padding-top: 8px;
 }
 
 .sidebarRow > h4 {
