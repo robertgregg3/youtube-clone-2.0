@@ -20,6 +20,7 @@
 .headerLeft {
   flex: 0.2;
   color: #11111199;
+  margin-left: 10px;
 }
 .headerLeft .MuiSvgIcon-root {
   cursor: pointer;

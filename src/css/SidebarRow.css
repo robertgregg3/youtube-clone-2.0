@@ -23,3 +23,14 @@
 .sidebarRow > .MuiSvgIcon-root {
   cursor: pointer;
 }
+
+.sidebarRow img {
+  width: 100px;
+  margin-left: 10px;
+  margin-top: -12px;
+}
+
+/* YouTube mobile nav */
+.sidebarRow:first-child {
+  display: none;
+}

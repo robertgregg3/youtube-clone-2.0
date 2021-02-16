@@ -1,5 +1,6 @@
 .content {
   margin-left: 200px;
+  width: 100%;
 }
 
 .content__results {
@@ -9,4 +10,22 @@
   background-color: #f9f9f9;
   padding: 10px;
   flex: 1;
+}
+
+@media (max-width: 1150px) {
+  .content__results {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 890px) {
+  .content__results {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .content__results {
+    grid-template-columns: 1fr;
+  }
 }

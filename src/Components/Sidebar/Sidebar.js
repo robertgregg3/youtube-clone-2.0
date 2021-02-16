@@ -1,5 +1,7 @@
 import React from "react";
 import "../../css/Sidebar.css";
+import logo from "../../images/youtube-logo.svg";
+import MenuIcon from "@material-ui/icons/Menu";
 import HomeIcon from "@material-ui/icons/Home";
 import WhatshotIcon from "@material-ui/icons/Whatshot";
 import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
@@ -25,6 +27,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar__section">
+        <SidebarRow Icon={MenuIcon} title="" src={logo} />
         <SidebarRow Icon={HomeIcon} title="Home" />
         <SidebarRow Icon={WhatshotIcon} title="Trending" />
         <SidebarRow Icon={SubscriptionsIcon} title="Subscriptions" />

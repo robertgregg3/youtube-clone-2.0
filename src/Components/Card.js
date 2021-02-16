@@ -1,32 +1,38 @@
 import React from "react";
-import image from "../images/yt1.jpg";
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import { Avatar } from "@material-ui/core";
 import "../css/Card.css";
 
-const Card = () => {
+const Card = ({
+  imgSrc,
+  duration,
+  title,
+  channelOwner,
+  views,
+  dateAdded,
+  subscribedTo,
+}) => {
   return (
     <div className="card">
       <div className="card__container">
         <div className="card__top">
-          <img src={image} alt="" />
+          <img src={imgSrc} alt={title} />
+          <span className="card__videoDuration">{duration}</span>
         </div>
         <div className="card__bottom">
           <div className="card__bottomLeft">
             <Avatar className="card__channelOwner" />
           </div>
           <div className="card__bottomRight">
-            <h4>I went undercover in my Brothers Tournament</h4>
+            <h4>{title}</h4>
             <p>
-              SypherPK
-              <span>
-                <CheckCircleIcon />
-              </span>
+              {channelOwner}
+              <span>{subscribedTo && <CheckCircleIcon />}</span>
             </p>
 
             <p>
-              <span className="card__botomRight--views">512K Views</span>
-              <span>1 year ago</span>
+              <span className="card__botomRight--views">{views} Views</span>
+              <span>{dateAdded}</span>
             </p>
           </div>
         </div>

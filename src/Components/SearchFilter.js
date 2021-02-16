@@ -15,12 +15,17 @@ const SearchFilter = () => {
       <FilterItem title="Website" />
       <FilterItem title="Shopify" />
       <FilterItem title="MMA" />
-      <FilterItem title="Donold Trump" />
+      <FilterItem title="Donald Trump" />
       <FilterItem title="SypherPK" />
       <FilterItem title="Gaming" />
       <FilterItem title="Crypto Currency" />
       <FilterItem title="CNN" />
       <FilterItem title="BBC news" />
+      <FilterItem title="Podcasts" />
+      <FilterItem title="Website" />
+      <FilterItem title="Shopify" />
+      <FilterItem title="MMA" />
+      <FilterItem title="Donald Trump" />
       <ChevronRightIcon />
     </div>
   );
