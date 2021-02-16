@@ -26,3 +26,22 @@
   width: 26px;
   height: 26px;
 }
+
+.subscription__live {
+  width: 7px;
+  height: 7px;
+  background-color: green;
+  margin-top: 0px;
+  margin-right: 7px;
+  border-radius: 11px;
+}
+
+.subscription__info {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+  padding-right: 17px;
+  padding-bottom: 8px;
+  font-size: 11px;
+}

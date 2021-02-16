@@ -5,6 +5,11 @@
   top: 35px;
   position: fixed;
   z-index: 100;
+  width: 200px;
+}
+
+.sidebar:hover {
+  overflow-y: scroll;
 }
 
 .sidebar > div > span {
