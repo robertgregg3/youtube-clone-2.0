@@ -9,7 +9,17 @@ const Content = () => {
       <div className="content__results">
         <Card
           imgSrc={image}
+          duration={`10:20`}
+          channelOwnerImgSrc=""
+          title="Shock horror!"
+          channelOwner="Me"
+          views="2002"
+          dateAdded="Today"
+        />
+        <Card
+          imgSrc={image}
           duration={`1:20`}
+          channelOwnerImgSrc=""
           title="I went and sneeked into my Brothers video"
           channelOwner="SypherPK"
           views="512k"
@@ -18,7 +28,17 @@ const Content = () => {
         />
         <Card
           imgSrc={image}
+          duration={`10:20`}
+          channelOwnerImgSrc=""
+          title="Shock horror!"
+          channelOwner="Me"
+          views="2002"
+          dateAdded="Today"
+        />
+        <Card
+          imgSrc={image}
           duration={`1:20`}
+          channelOwnerImgSrc=""
           title="I went and sneeked into my Brothers video"
           channelOwner="SypherPK"
           views="512k"
@@ -27,7 +47,17 @@ const Content = () => {
         />
         <Card
           imgSrc={image}
+          duration={`10:20`}
+          channelOwnerImgSrc=""
+          title="Shock horror!"
+          channelOwner="Me"
+          views="2002"
+          dateAdded="Today"
+        />
+        <Card
+          imgSrc={image}
           duration={`1:20`}
+          channelOwnerImgSrc=""
           title="I went and sneeked into my Brothers video"
           channelOwner="SypherPK"
           views="512k"
@@ -36,7 +66,17 @@ const Content = () => {
         />
         <Card
           imgSrc={image}
+          duration={`10:20`}
+          channelOwnerImgSrc=""
+          title="Shock horror!"
+          channelOwner="Me"
+          views="2002"
+          dateAdded="Today"
+        />
+        <Card
+          imgSrc={image}
           duration={`1:20`}
+          channelOwnerImgSrc=""
           title="I went and sneeked into my Brothers video"
           channelOwner="SypherPK"
           views="512k"
@@ -45,7 +85,17 @@ const Content = () => {
         />
         <Card
           imgSrc={image}
+          duration={`10:20`}
+          channelOwnerImgSrc=""
+          title="Shock horror!"
+          channelOwner="Me"
+          views="2002"
+          dateAdded="Today"
+        />
+        <Card
+          imgSrc={image}
           duration={`1:20`}
+          channelOwnerImgSrc=""
           title="I went and sneeked into my Brothers video"
           channelOwner="SypherPK"
           views="512k"
@@ -54,7 +104,17 @@ const Content = () => {
         />
         <Card
           imgSrc={image}
+          duration={`10:20`}
+          channelOwnerImgSrc=""
+          title="Shock horror!"
+          channelOwner="Me"
+          views="2002"
+          dateAdded="Today"
+        />
+        <Card
+          imgSrc={image}
           duration={`1:20`}
+          channelOwnerImgSrc=""
           title="I went and sneeked into my Brothers video"
           channelOwner="SypherPK"
           views="512k"
@@ -63,7 +123,17 @@ const Content = () => {
         />
         <Card
           imgSrc={image}
+          duration={`10:20`}
+          channelOwnerImgSrc=""
+          title="Shock horror!"
+          channelOwner="Me"
+          views="2002"
+          dateAdded="Today"
+        />
+        <Card
+          imgSrc={image}
           duration={`1:20`}
+          channelOwnerImgSrc=""
           title="I went and sneeked into my Brothers video"
           channelOwner="SypherPK"
           views="512k"
@@ -72,88 +142,17 @@ const Content = () => {
         />
         <Card
           imgSrc={image}
-          duration={`1:20`}
-          title="I went and sneeked into my Brothers video"
-          channelOwner="SypherPK"
-          views="512k"
-          dateAdded="1 Year ago"
-          subscribedTo
+          duration={`10:20`}
+          channelOwnerImgSrc=""
+          title="Shock horror!"
+          channelOwner="Me"
+          views="2002"
+          dateAdded="Today"
         />
         <Card
           imgSrc={image}
           duration={`1:20`}
-          title="I went and sneeked into my Brothers video"
-          channelOwner="SypherPK"
-          views="512k"
-          dateAdded="1 Year ago"
-          subscribedTo
-        />
-        <Card
-          imgSrc={image}
-          duration={`1:20`}
-          title="I went and sneeked into my Brothers video"
-          channelOwner="SypherPK"
-          views="512k"
-          dateAdded="1 Year ago"
-          subscribedTo
-        />
-        <Card
-          imgSrc={image}
-          duration={`1:20`}
-          title="I went and sneeked into my Brothers video"
-          channelOwner="SypherPK"
-          views="512k"
-          dateAdded="1 Year ago"
-          subscribedTo
-        />
-        <Card
-          imgSrc={image}
-          duration={`1:20`}
-          title="I went and sneeked into my Brothers video"
-          channelOwner="SypherPK"
-          views="512k"
-          dateAdded="1 Year ago"
-          subscribedTo
-        />
-        <Card
-          imgSrc={image}
-          duration={`1:20`}
-          title="I went and sneeked into my Brothers video"
-          channelOwner="SypherPK"
-          views="512k"
-          dateAdded="1 Year ago"
-          subscribedTo
-        />
-        <Card
-          imgSrc={image}
-          duration={`1:20`}
-          title="I went and sneeked into my Brothers video"
-          channelOwner="SypherPK"
-          views="512k"
-          dateAdded="1 Year ago"
-          subscribedTo
-        />
-        <Card
-          imgSrc={image}
-          duration={`1:20`}
-          title="I went and sneeked into my Brothers video"
-          channelOwner="SypherPK"
-          views="512k"
-          dateAdded="1 Year ago"
-          subscribedTo
-        />
-        <Card
-          imgSrc={image}
-          duration={`1:20`}
-          title="I went and sneeked into my Brothers video"
-          channelOwner="SypherPK"
-          views="512k"
-          dateAdded="1 Year ago"
-          subscribedTo
-        />
-        <Card
-          imgSrc={image}
-          duration={`1:20`}
+          channelOwnerImgSrc=""
           title="I went and sneeked into my Brothers video"
           channelOwner="SypherPK"
           views="512k"

@@ -6,6 +6,7 @@ import "../css/Card.css";
 const Card = ({
   imgSrc,
   duration,
+  channelOwnerImgSrc,
   title,
   channelOwner,
   views,
@@ -21,7 +22,7 @@ const Card = ({
         </div>
         <div className="card__bottom">
           <div className="card__bottomLeft">
-            <Avatar className="card__channelOwner" />
+            <Avatar className="card__channelOwner" src={channelOwnerImgSrc} />
           </div>
           <div className="card__bottomRight">
             <h4>{title}</h4>
