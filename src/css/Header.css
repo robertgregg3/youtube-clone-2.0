@@ -102,3 +102,49 @@
   margin-left: 200px;
   background-color: #fff;
 }
+
+/*  POPUP FROM SIGN IN */
+
+.popup__container > p {
+  margin-bottom: 10px;
+}
+
+.popup__container > button {
+  width: 60px;
+  background-color: rgb(209, 3, 3);
+  border: none;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup__container > button:focus {
+  outline-width: 0;
+}
+.popup-content {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+.popup-arrow {
+  display: none;
+}
+[role="tooltip"].popup-content {
+  box-shadow: rgb(0 0 0 / 16%) 0px 0px 3px;
+  position: absolute !important;
+  top: -53% !important;
+  height: 300px;
+  width: 300px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup="tooltip"].popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
