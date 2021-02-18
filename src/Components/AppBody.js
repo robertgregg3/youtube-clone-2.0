@@ -5,20 +5,26 @@ import Sidebar from "./Sidebar/Sidebar";
 import TermsOfService from "./TermsOfService";
 import Privacy from "./Privacy";
 import { Switch, Route } from "react-router-dom";
+import Watch from "./Watch";
 
 const AppBody = () => {
   return (
     <div className="appBody">
-      <Sidebar />
       <Switch>
         <Route exact path="/">
+          <Sidebar />
           <Content />
         </Route>
         <Route path="/privacy">
+          <Sidebar />
           <Privacy />
         </Route>
         <Route path="/terms-of-service">
+          <Sidebar />
           <TermsOfService />
+        </Route>
+        <Route path="/watch">
+          <Watch />
         </Route>
       </Switch>
     </div>

@@ -15,6 +15,7 @@ const Content = () => {
           channelOwner="Me"
           views="2002"
           dateAdded="Today"
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -25,6 +26,7 @@ const Content = () => {
           views="512k"
           dateAdded="1 Year ago"
           subscribedTo
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -34,6 +36,7 @@ const Content = () => {
           channelOwner="Me"
           views="2002"
           dateAdded="Today"
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -44,6 +47,7 @@ const Content = () => {
           views="512k"
           dateAdded="1 Year ago"
           subscribedTo
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -53,6 +57,7 @@ const Content = () => {
           channelOwner="Me"
           views="2002"
           dateAdded="Today"
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -63,6 +68,7 @@ const Content = () => {
           views="512k"
           dateAdded="1 Year ago"
           subscribedTo
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -72,6 +78,7 @@ const Content = () => {
           channelOwner="Me"
           views="2002"
           dateAdded="Today"
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -82,6 +89,7 @@ const Content = () => {
           views="512k"
           dateAdded="1 Year ago"
           subscribedTo
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -91,6 +99,7 @@ const Content = () => {
           channelOwner="Me"
           views="2002"
           dateAdded="Today"
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -101,6 +110,7 @@ const Content = () => {
           views="512k"
           dateAdded="1 Year ago"
           subscribedTo
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -110,6 +120,7 @@ const Content = () => {
           channelOwner="Me"
           views="2002"
           dateAdded="Today"
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -120,6 +131,7 @@ const Content = () => {
           views="512k"
           dateAdded="1 Year ago"
           subscribedTo
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -129,6 +141,7 @@ const Content = () => {
           channelOwner="Me"
           views="2002"
           dateAdded="Today"
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -139,6 +152,7 @@ const Content = () => {
           views="512k"
           dateAdded="1 Year ago"
           subscribedTo
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -148,6 +162,7 @@ const Content = () => {
           channelOwner="Me"
           views="2002"
           dateAdded="Today"
+          src="/watch"
         />
         <Card
           imgSrc={image}
@@ -158,6 +173,7 @@ const Content = () => {
           views="512k"
           dateAdded="1 Year ago"
           subscribedTo
+          src="/watch"
         />
       </div>
     </div>

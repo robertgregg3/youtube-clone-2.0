@@ -16,84 +16,6 @@ import "../css/Header.css";
 /* global gapi */
 
 const Header = () => {
-  const [user, setUser] = useState("");
-  useEffect(() => {
-    handleClientLoad();
-
-    return () => {
-      revokeAccess();
-    };
-  }, []);
-
-  let GoogleAuth = null;
-  let SCOPE =
-    "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/userinfo.profile";
-  let discoveryUrl =
-    "https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest";
-  const defaultChannel = "S3 Studios";
-
-  function handleClientLoad() {
-    gapi.load("client:auth2", initClient);
-  }
-
-  function initClient() {
-    gapi.client
-      .init({
-        apiKey: "AIzaSyCmZK3_stNMDNkQ1_s_bFaaOMWLb1S5t-w",
-        clientId:
-          "598289385535-19aum66at667etm8ncm78tubkio8ohch.apps.googleusercontent.com",
-        discoveryDocs: [discoveryUrl],
-        scope: SCOPE,
-      })
-      .then(() => {
-        GoogleAuth = gapi.auth2.getAuthInstance();
-        GoogleAuth.isSignedIn.listen(updateSigninStatus);
-
-        const user = GoogleAuth.currentUser.get();
-        setSigninStatus();
-      });
-  }
-
-  const handleAuthClick = () => {
-    if (GoogleAuth.isSignedIn.get() || GoogleAuth.isSignedIn === "") {
-      GoogleAuth.signOut();
-    } else {
-      GoogleAuth.signIn();
-    }
-  };
-
-  const revokeAccess = () => {
-    GoogleAuth.disconnect();
-  };
-
-  const setSigninStatus = () => {
-    var user = GoogleAuth.currentUser.get();
-    var isAuthorized = user.hasGrantedScopes(SCOPE);
-    if (isAuthorized) {
-      setUser(true);
-      getChannel(defaultChannel);
-      console.log(user);
-    } else {
-      setUser("");
-    }
-  };
-
-  const updateSigninStatus = () => {
-    setSigninStatus();
-  };
-
-  const getChannel = () => {
-    return gapi.client.youtube.videos
-      .list({
-        part: ["snippet,contentDetails"],
-        fields: "items",
-      })
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => alert("this is the error: ", error));
-  };
-
   return (
     <div className="header">
       <div className="header__top">
@@ -118,7 +40,7 @@ const Header = () => {
           <NotificationsActiveIcon />
           <Avatar />
 
-          <Popup
+          {/* <Popup
             trigger={<button> {!user ? "Sign in" : "Sign out"}</button>}
             position="left"
             modal
@@ -138,7 +60,7 @@ const Header = () => {
                 <button onClick={revokeAccess}>Sign out</button>
               )}
             </div>
-          </Popup>
+          </Popup> */}
         </div>
       </div>
       <div className="header__bottom">
