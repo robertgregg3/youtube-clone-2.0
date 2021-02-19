@@ -1,0 +1,6 @@
+.watchMain {
+  display: flex;
+  flex: 0.8;
+  flex-direction: column;
+  border: 1px solid #000000;
+}

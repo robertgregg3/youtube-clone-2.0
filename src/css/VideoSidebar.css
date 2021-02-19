@@ -1,0 +1,5 @@
+.videoSidebar {
+  display: flex;
+  flex: 0.2;
+  min-width: 200px;
+}

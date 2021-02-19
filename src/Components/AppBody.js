@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar/Sidebar";
 import TermsOfService from "./TermsOfService";
 import Privacy from "./Privacy";
 import { Switch, Route } from "react-router-dom";
-import Watch from "./Watch";
+import Watch from "./Watch/Watch";
 
 const AppBody = () => {
   return (
