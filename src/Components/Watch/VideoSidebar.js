@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import VideoRelated from "./WatchMain/VideoRelated";
 import Switch from "@material-ui/core/Switch";
 import "../../css/VideoSidebar.css";
+import VideoNext from "./WatchMain/VideoNext";
 
 const VideoSidebar = () => {
   const [state, setState] = useState({
@@ -28,6 +29,7 @@ const VideoSidebar = () => {
           />
         </div>
       </div>
+      <VideoNext />
       <VideoRelated />
     </div>
   );
