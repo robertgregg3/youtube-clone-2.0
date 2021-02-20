@@ -5,3 +5,29 @@
   flex-direction: column;
   padding: 10px;
 }
+
+.MuiSwitch-thumb {
+  width: 14px !important;
+  height: 14px !important;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked {
+  color: #ffffff !important;
+  margin-left: 5px;
+}
+
+.MuiSwitch-track {
+  opacity: 1 !important;
+  background-color: #cccccc !important;
+}
+
+.MuiSwitch-colorPrimary.Mui-checked + .MuiSwitch-track {
+  background-color: #1f86d0 !important;
+}
+
+.videoSidebar__upNext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px 0 8px;
+}

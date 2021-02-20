@@ -1,10 +1,132 @@
 import React from "react";
-import "../../css/VideoRelated.css";
+import image from "../../../images/yt1.jpg";
+import Card from "../../Card";
+import "../../../css/VideoRelated.css";
 
 const VideoRelated = () => {
   return (
     <div className="videoRelated">
-      <h4>Related Videos</h4>
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+        horizontal={true}
+      />
     </div>
   );
 };
