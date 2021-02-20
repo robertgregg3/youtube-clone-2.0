@@ -1,10 +1,121 @@
 import React from "react";
+import Card from "../Card";
+import image from "../../images/yt1.jpg";
 import "../../css/VideoSidebar.css";
 
 const VideoSidebar = () => {
   return (
     <div className="videoSidebar">
-      <h5>Video Sidebar</h5>
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
+      <Card
+        imgSrc={image}
+        duration={`10:20`}
+        channelOwnerImgSrc=""
+        title="Shock horror!"
+        channelOwner="Me"
+        views="2002"
+        dateAdded="Today"
+        src="/watch"
+      />
     </div>
   );
 };

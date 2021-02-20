@@ -1,5 +1,31 @@
 .videoSidebar {
   display: flex;
-  flex: 0.2;
+  flex: 0.4;
   min-width: 200px;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.videoSidebar > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.videoSidebar > a > .card > .card__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.videoSidebar
+  > a
+  > .card
+  > .card__container
+  > .card__bottom
+  > .card__bottomLeft
+  > .MuiAvatar-root {
+  display: none !important;
+}
+
+.videoSidebar > a > .card > .card__container > .card__bottom {
+  margin-top: 0px;
 }
