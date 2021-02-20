@@ -14,11 +14,13 @@ const Card = ({
   dateAdded,
   subscribedTo,
   src,
+  horizontal,
 }) => {
+  const isHorizontal = horizontal ? "card__horizontal" : null;
   return (
     <Link to={src}>
       <div className="card">
-        <div className="card__container">
+        <div className={["card__container", isHorizontal].join(" ")}>
           <div className="card__top">
             <img src={imgSrc} alt={title} />
             <span className="card__videoDuration">{duration}</span>

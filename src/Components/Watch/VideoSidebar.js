@@ -15,6 +15,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
       <Card
         imgSrc={image}
@@ -25,6 +26,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
       <Card
         imgSrc={image}
@@ -35,6 +37,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
       <Card
         imgSrc={image}
@@ -45,6 +48,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
       <Card
         imgSrc={image}
@@ -55,6 +59,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
       <Card
         imgSrc={image}
@@ -65,6 +70,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
       <Card
         imgSrc={image}
@@ -75,6 +81,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
       <Card
         imgSrc={image}
@@ -85,6 +92,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
       <Card
         imgSrc={image}
@@ -95,6 +103,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
       <Card
         imgSrc={image}
@@ -105,6 +114,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
       <Card
         imgSrc={image}
@@ -115,6 +125,7 @@ const VideoSidebar = () => {
         views="2002"
         dateAdded="Today"
         src="/watch"
+        horizontal={true}
       />
     </div>
   );

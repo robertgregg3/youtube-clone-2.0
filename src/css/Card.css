@@ -36,8 +36,11 @@
 }
 
 .card__bottomRight > h4 {
-  font-size: 13px;
+  font-size: 15px;
   margin-bottom: 10px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  text-transform: capitalize;
 }
 
 .card__bottomRight > p {
@@ -55,4 +58,23 @@
 .card__botomRight--views:after {
   content: "•";
   margin: 0 4px;
+}
+
+.card > .card__horizontal {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-width: 300px !important;
+  width: 100%;
+}
+
+.card__horizontal > .card__bottom {
+  margin-top: 0;
+}
+
+.card__horizontal > .card__bottom > .card__bottomLeft > .MuiAvatar-root {
+  display: none;
+}
+
+.card__horizontal > .card__bottom > .card__bottomRight > a {
+  text-decoration: none !important;
 }
