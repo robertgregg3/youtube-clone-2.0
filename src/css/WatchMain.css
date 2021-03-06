@@ -1,5 +1,3 @@
 .watchMain {
-  display: flex;
-  flex: 0.8;
-  flex-direction: column;
+  display: grid;
 }

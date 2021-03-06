@@ -1,20 +1,16 @@
 .video__container {
   position: relative;
   width: 100%;
+  margin-top: 1rem;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: grid;
 }
 
 .video-container:before {
   content: "";
   display: block;
   padding-top: 56.25%;
-}
-
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
 }
 
 .video__player {
