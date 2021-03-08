@@ -9,7 +9,7 @@ const WatchMain = () => {
   return (
     <div className="watchMain">
       <Video userId="-7fuHEEmEjs" />
-      <VideoMeta />
+      <VideoMeta viewCount={1000} />
       <VideoInfo />
       <VideoComments />
     </div>

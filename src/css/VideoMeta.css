@@ -1,4 +1,31 @@
 .videoMeta {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
+  color: #707070;
+  font-size: 16px;
+}
+
+.videoMeta__stats {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.videoMeta__stats--right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 332px;
+  font-size: 14px;
+}
+
+.videoMeta__stats--right:after {
+  content: "";
+}
+
+.videoMeta__stats--right > p {
+  margin-left: -10px;
 }
