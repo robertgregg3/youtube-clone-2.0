@@ -1,7 +1,9 @@
 import React from "react";
-import { Reply, PlaylistAdd, MoreHoriz } from "@material-ui/icons";
+import { MoreHoriz } from "@material-ui/icons";
 import Rating from "./Rating";
+import Share from "./Share";
 import "../../../css/VideoMeta.css";
+import Save from "./Save";
 
 const VideoMeta = ({ viewCount, dateCreated }) => {
   return (
@@ -10,15 +12,14 @@ const VideoMeta = ({ viewCount, dateCreated }) => {
       <div className="videoMeta__stats">
         <div className="videoMeta__stats--left">
           <span>
-            Video Meta {viewCount} • {dateCreated}
+            Video Meta {viewCount} •{" "}
+            {dateCreated ? dateCreated : "May 21, 2020"}
           </span>
         </div>
         <div className="videoMeta__stats--right">
           <Rating likes={512} dislikes={72} />
-          <Reply />
-          <p>SHARE</p>
-          <PlaylistAdd />
-          <p>SAVE</p>
+          <Share />
+          <Save />
           <MoreHoriz />
         </div>
       </div>

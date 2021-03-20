@@ -3,6 +3,12 @@
   grid-row: 2 / 3;
   color: #707070;
   font-size: 16px;
+  padding-top: 1.5rem;
+}
+
+.videoMeta > h3 {
+  font-weight: normal;
+  color: #000000;
 }
 
 .videoMeta__stats {
@@ -13,12 +19,16 @@
   align-items: center;
 }
 
+.videoMeta__stats--left {
+  font-size: 15px;
+}
+
 .videoMeta__stats--right {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 332px;
+  max-width: 378px;
   font-size: 14px;
 }
 

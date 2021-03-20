@@ -1,0 +1,6 @@
+.share {
+  display: flex;
+  width: 75px;
+  justify-content: space-between;
+  align-items: center;
+}
